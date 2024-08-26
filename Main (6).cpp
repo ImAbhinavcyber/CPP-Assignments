@@ -22,9 +22,15 @@ int main()
   carobj2.brand="Honda";
   carobj2.model=" civic ";
   carobj2.year= 1972;
+
+  //creating third object of car
+  Car carobj3;
+  carobj3.brand="Rolls-Royce";
+  carobj3.model=" pantom ";
+  carobj3.year= 1925;
   
   cout<<carobj1.brand<<carobj1.model<<carobj1.year<<endl;
   cout<<carobj2.brand<<carobj2.model<<carobj2.year<<endl;
-  
+  cout<<carobj3.brand<<carobj3.model<<carobj3.year<<endl;
   return 0;
 }
